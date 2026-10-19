@@ -1,0 +1,45 @@
+/* 7. Apply Google Font 'Special Elite' to required elements */
+h1, h2, h3, .navbar-brand, .btn {
+  font-family: 'Special Elite', cursive, sans-serif;
+}
+
+/* 8.1 Add 50px of bottom padding to the class "row" */
+.row {
+  padding-bottom: 50px;
+}
+
+/* Center alignment and styling for columns from instructions */
+.col-md-4 {
+  text-align: center;
+}
+
+.column-center {
+  text-align: center;
+}
+
+/* Image restrictions for the two-column section */
+.custom-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Icon sizing (from instructor guide) */
+.bi {
+  font-size: 3em;
+}
+
+/* 8.2 Media Query for screens below 500px */
+@media only screen and (max-width: 500px) {
+  /* Adds 50px of padding to the top of H2 */
+  h2 {
+    padding-top: 50px;
+  }
+  
+  /* Changes the background color of buttons to teal */
+  .btn {
+    background-color: teal !important;
+    border-color: teal !important;
+  }
+}
