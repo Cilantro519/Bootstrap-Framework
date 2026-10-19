@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Skate! Newsletter</title>
+  <meta name="description" content="Skate Newsletter Landing Page">
+  <meta name="author" content="Student">
+
+  <!-- Bootstrap CSS and JavaScript CDNs (from your teacher's guide) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Google Font: Special Elite -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Bootstrap Navbar (Modified to dark theme, 3 items, and custom title) -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Skate! Newsletter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Current issue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Past issues</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Follow us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2 & 3. Hero Image Section (Using specified code with swapped image and text modifications) -->
+  <div class="container col-xxl-8 px-4 py-5"> 
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+      <div class="col-10 col-sm-8 col-lg-6"> 
+        <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="d-block mx-lg-auto img-fluid" alt="Skateboarding" width="700" height="500" loading="lazy"> 
+      </div> 
+      <div class="col-lg-6"> 
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Catch the Latest Skate Culture</h1> 
+        <p class="lead">Get the freshest updates on skateparks, gear reviews, professional highlights, and underground street clips delivered straight to your inbox every single week.</p> 
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Subscribe Now</button> 
+        </div> 
+      </div> 
+    </div> 
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- 4. Two-Column Row Grid -->
+    <div class="row">
+      <div class="col-md-6 column-center">
+        <h2>Street Skating Tips</h2>
+        <p>Master your kickflips and learn how to drop in safely with expert breakdowns.</p>
+        <img src="https://images.unsplash.com/photo-1520045892732-304bc3ac5d8e?auto=format&fit=crop&w=500&q=80" alt="Skater" class="custom-img">
+        <br>
+        <button type="button" class="btn btn-dark mt-3">Read More</button>
+      </div>
+      <div class="col-md-6 column-center">
+        <h2>Board Maintenance</h2>
+        <p>Keep your bearings spinning fast and your grip tape fresh all season long.</p>
+        <img src="https://images.unsplash.com/photo-1547447134-cd3f5c716022?auto=format&fit=crop&w=500&q=80" alt="Skateboard setup" class="custom-img">
+        <br>
+        <button type="button" class="btn btn-dark mt-3">Learn More</button>
+      </div>
+    </div>
+
+    <!-- 5. Three-Column Row with Icons -->
+    <div class="row">
+      <div class="col-md-4">
+        <i class="bi bi-peace-fill"></i>
+        <h3>Community</h3>
+        <p>Join thousands of skaters worldwide sharing clips and local spots.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-layers-fill"></i>
+        <h3>Exclusive Drops</h3>
+        <p>Get early access to limited-edition board graphics and merchandise.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-newspaper"></i>
+        <h3>Weekly Dispatch</h3>
+        <p>Curated news, tricks, and pro interviews sent right to your inbox.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 6. Footer -->
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+      <span class="text-muted">This is a bootstrap exercise</span>
+    </div>
+  </footer>
+
+</body>
+</html>
